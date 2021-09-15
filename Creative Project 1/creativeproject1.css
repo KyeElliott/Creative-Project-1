@@ -1,0 +1,405 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face
+{
+  font-family: 'Arcade Normal';
+  src: url('ArcadeNormal.eot');
+  src: url('ArcadeNormal.eot?#iefix') format('embedded-opentype'),
+  url('ArcadeNormal.woff') format('woff'),
+  url('ArcadeNormal.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media only screen and (max-width: 425px)
+{
+  .bg-dark
+  {
+    background-color: black !important;
+  }
+
+  .shopping-cart
+  {
+    display: none;
+  }
+
+  a
+  {
+    font-family: 'Arcade Normal';
+    color: white;
+  }
+
+  h1
+  {
+    font-size: 18px;
+    margin-bottom: 25px;
+    margin-top: 15px;
+    font-family: 'Arcade Normal';
+  }
+
+  .welcome-window
+  {
+    display: flex;
+    justify-content: center;
+    background-size: 420px;
+    padding: 175px;
+    background-image: url("Pictures/Yoshis House.gif");
+    background-position: bottom center;
+  }
+
+  .about
+  {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 40px;
+    background-color: #111111;
+    font-family: 'Arcade Normal';
+    font-size: 13px;
+    color: white;
+  }
+
+  .shop-grid
+  {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .shop-window
+  {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .company-window
+  {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #222222;
+    color: white;
+    width: 100%;
+  }
+
+  .list-consoles
+  {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 300px;;
+    font-family: 'Arcade Normal';
+    font-size: 10px;
+  }
+
+  .list-games
+  {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 300px;
+    font-family: 'Arcade Normal';
+    font-size: 10px;
+    margin-top: 15px;
+  }
+
+  .consoles
+  {
+    margin: 25px;
+    width: 200px;
+  }
+
+  .games
+  {
+    margin: 25px;
+    width: 200px;
+  }
+
+  .add-to-cart
+  {
+    text-decoration: underline;
+  }
+
+  .logo
+
+  {
+    width: 150px;
+  }
+
+  .nintendo-button
+  {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    background-color: #e60012;
+    padding: 56.5px;
+  }
+
+  .sega-button
+  {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    background-color: white;
+    padding: 50px;
+  }
+
+  .playstation-button
+  {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    background-color: black;
+  }
+
+  .xbox-button
+  {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    background-color: #107c10;
+  }
+
+  .footer
+  {
+    display: flex;
+    justify-content: center;
+    background-color: #111111;
+    padding: 40px;
+    font-family: 'Arcade Normal';
+    color: white;
+    width: 100%;
+  }
+
+  .contact
+  {
+    padding: 10px;
+    border: 3px solid white;
+  }
+
+  .github
+  {
+    width: 100%;
+    background-color: black;
+    border-top: 2px solid white;
+    border-width: 100%;
+    font-size: 7.4px;
+  }
+}
+
+@media only screen and (min-width: 425px) and (max-width: 2560px)
+{
+  .bg-dark
+  {
+    background-color: black !important;
+  }
+
+  .nav-link
+  {
+    margin: 15px;
+  }
+
+  h1
+  {
+    font-size: 45px;
+    margin-bottom: 35px;
+    font-family: 'Arcade Normal';
+  }
+
+  p
+  {
+    font-family: 'Arcade Normal';
+  }
+
+  .welcome-window
+  {
+    display: flex;
+    justify-content: center;
+    background-image: url("Pictures/Mario World.jpg");
+    padding: 250px;
+    background-size: 1550px;
+    background-position: bottom center;
+  }
+
+  .about
+  {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 50px;
+    background-color: black;
+    font-family: 'Arcade Normal';
+    font-size: 20px;
+    color: white;
+  }
+
+  .about-box
+  {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 1000px;
+  }
+
+  a
+  {
+    font-family: 'Arcade Normal';
+    color: white;
+  }
+
+  a:hover
+  {
+    text-decoration: none;
+    color:gray;
+  }
+
+  .nintendo-button:hover,
+  .sega-button:hover,
+  .playstation-button:hover,
+  .xbox-button:hover
+  {
+    box-shadow: 0 10px 12px -6px lightgrey;
+  }
+
+  .shop-grid
+  {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    background-color: #111111;
+  }
+
+  .shop-window
+  {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 100px;
+    width: 1200px;
+  }
+
+  .company-window
+  {
+    background-color: #222222;
+    color: white;
+    width: 100%;
+    padding-top: 20px;
+  }
+
+  .list-consoles
+  {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    width: 85%;
+  }
+
+  .list-games
+  {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 300px;
+  }
+
+  .consoles
+  {
+    width: 200px;
+  }
+
+  .games
+  {
+    margin: 25px;
+    width: 200px;
+  }
+
+  .add-to-cart
+  {
+    text-decoration: underline;
+  }
+
+
+  .nintendo-button
+  {
+    display: flex;
+    width: 400px;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    background-color: #e60012;
+    border: 1px solid white;
+    padding: 56.5px;
+    margin: 20px;
+  }
+
+  .sega-button
+  {
+    display: flex;
+    width: 400px;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 50px;
+    border: 1px solid white;
+    margin: 20px;
+  }
+
+  .playstation-button
+  {
+    display: flex;
+    width: 400px;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    border: 1px solid white;
+    margin: 20px;
+  }
+
+  .xbox-button
+  {
+    display: flex;
+    width: 400px;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    background-color: #107c10;
+    border: 1px solid white;
+    margin: 20px;
+  }
+
+  .logo
+  {
+    width: 150px;
+  }
+
+  .footer
+  {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    padding: 50px;
+    font-family: 'Arcade Normal';
+    color: white;
+    width: 100%;
+  }
+
+  .contact
+  {
+    padding: 10px;
+    border: 3px solid white;
+  }
+
+  .github
+  {
+    background-color: black;
+    border-top: 2px solid white;
+    font-size: 15px;
+    padding: 10px;
+  }
+}
